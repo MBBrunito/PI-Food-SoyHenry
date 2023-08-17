@@ -1,0 +1,54 @@
+.homePage {
+   background-image: url(https://thefoodtech.com/wp-content/uploads/2020/12/ingredientes-saludables.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.titleCont {
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+}
+
+.info {
+   margin: 2.5rem;
+   margin-top: 0.5rem;
+   width: 90vw;
+   height: 90vh;
+}
+
+.title {
+   background-color: rgba(255, 254, 254, 0.5);
+   width: 20rem;
+   height: 2.5rem;
+   border-bottom-right-radius: 2rem;
+}
+.h2Title {
+   margin-top: 0.5rem;
+   color: transparent;
+   background-image: linear-gradient(to left, black, blue, red, white, black);
+   background-clip: text;
+   animation: color 3s linear infinite;
+   background-size: 500%;
+
+   font-family: "Kalam", cursive;
+   font-size: 1.9rem;
+   line-height: 1;
+}
+@keyframes color {
+   from {
+      background-position: 0% 50%;
+   }
+
+   to {
+      background-position: 100% 50%;
+   }
+}

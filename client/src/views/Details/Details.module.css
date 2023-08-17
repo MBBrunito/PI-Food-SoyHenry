@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+.back {
+   background-image: url(https://learnoper.com/wp-content/uploads/2022/05/3-cooking-scaled.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   font-family: cursive;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.titId {
+   margin: 0;
+   padding: 0;
+   background-color: #260ac7;
+}
+
+.titleCont {
+   background-color: rgba(255, 254, 254, 0.5);
+   width: fit-content;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 2.5rem;
+   border-bottom-right-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+}
+
+.title {
+   margin-top: 0.5rem;
+   color: transparent;
+   background-image: linear-gradient(
+      to left,
+      #000000,
+      #260ac7,
+      #a11616,
+      #101669,
+      #000000
+   );
+   background-clip: text;
+   animation: color 3s linear infinite;
+   background-size: 500%;
+
+   font-family: "Kalam", cursive;
+   font-size: 1.9rem;
+   line-height: 1;
+}
+
+@keyframes color {
+   from {
+      background-position: 0% 50%;
+   }
+
+   to {
+      background-position: 100% 50%;
+   }
+}
+
+.recipeDetail {
+   width: 90vw;
+   height: 83vh;
+   margin-top: 2vh;
+   display: flex;
+   justify-content: space-around;
+   align-content: space-between;
+}
+
+.dietsCont {
+   text-align: left;
+   width: fit-content;
+}
+
+.customList {
+   list-style: none; /* Elimina los marcadores por defecto */
+   display: grid;
+   grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+   grid-gap: 1px; /* Espacio entre las celdas */
+   font-size: 0.9rem;
+   font-weight: bold;
+   width: 35vw;
+   padding-left: 1.5rem; /* Agrega espacio para el nuevo marcador */
+   color: whitesmoke;
+   text-shadow: -1px -1px black, 1px 1px #333;
+   border-radius: 1rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.1rem;
+   padding-right: 1.5rem;
+   padding-left: 2.5rem;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.customList li {
+   margin-bottom: 10px;
+   text-align: left;
+   position: relative; /* Asegura que los marcadores personalizados sean relativos al li */
+}
+
+.customList li::before {
+   content: "✔"; /* Puedes cambiar este símbolo */
+   position: absolute;
+   left: -1rem; /* Coloca el marcador a la izquierda del li */
+   color: whitesmoke; /* Color del marcador */
+   font-size: 15px; /* Tamaño del marcador */
+   font-weight: bold;
+   text-shadow: -1px -1px black, 1px 1px #333;
+}
+
+.h3 {
+   margin: 0;
+   background-color: rgba(255, 255, 255, 0.35);
+   font-size: normal;
+   font-weight: bold;
+   border-radius: 1rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+}
+
+.summaryCont {
+   margin-top: 0.5rem;
+   text-align: left;
+}
+
+.summary {
+   width: 40vw;
+   height: 17rem;
+   overflow: auto;
+   font-size: 0.8rem;
+   color: rgb(212, 208, 208);
+   text-shadow: -1px -1px black, 1px 1px #333;
+   border-radius: 1rem;
+   padding-top: 0.5rem;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.steps {
+   width: 40vw;
+   height: 29rem;
+   text-align: left;
+}
+
+.imgLogo {
+   width: 8rem;
+}
+
+.customSteps {
+   font-size: 0.8rem;
+   font-weight: bold;
+   width: 32vw;
+   height: 57vh;
+   padding-left: 1.5rem; /* Agrega espacio para el nuevo marcador */
+   color: whitesmoke;
+   text-shadow: -1px -1px black, 1px 1px #333;
+   border-radius: 1rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.1rem;
+   padding-right: 1.5rem;
+   padding-left: 2.5rem;
+   background-color: rgba(0, 0, 0, 0.5);
+   overflow: auto;
+}
+
+.customSteps li {
+   margin-bottom: 10px;
+   text-align: left;
+   position: relative; /* Asegura que los marcadores personalizados sean relativos al li */
+}

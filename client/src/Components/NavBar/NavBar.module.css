@@ -1,0 +1,47 @@
+.contentNavBar {
+   display: flex;
+   background-color: black;
+   align-items: center;
+   justify-content: space-around;
+   height: 3.5rem;
+   width: 100vw;
+}
+
+.navBar {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   width: 65%;
+}
+
+.imgLogo {
+   width: 5rem;
+}
+
+.NewRecipe {
+   font-family: cursive;
+
+   text-decoration: none;
+   border-radius: 1rem;
+   background-color: blue;
+   color: aqua;
+   width: 12rem;
+   height: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.goWelcome {
+   font-family: cursive;
+
+   text-decoration: none;
+   border-radius: 1rem;
+   background-color: blue;
+   color: aqua;
+   width: 12rem;
+   height: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

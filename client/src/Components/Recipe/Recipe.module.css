@@ -1,0 +1,90 @@
+.recipeCont {
+   display: flex;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.Recipe {
+   width: 25vw;
+   height: 30vh;
+   border: 0.5rem solid black;
+   box-shadow: 0 0 6px 6px rgba(57, 236, 51, 0.9);
+   border-radius: 1rem;
+   padding: 0.2rem;
+   margin: 0.5rem;
+   font-family: cursive;
+   font-size: small;
+   background-size: cover;
+   background-position: center;
+   transition: transform 0.3s;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.diet {
+   display: flex;
+   justify-content: space-between;
+   align-items: last baseline;
+   padding: 0;
+}
+
+.h3 {
+   margin: 0;
+   background-color: rgba(255, 255, 255, 0.35);
+   font-size: small;
+   font-weight: bold;
+   border-radius: 1rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+}
+.h3:hover {
+   font-size: medium;
+   font-weight: normal;
+   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.customLi {
+   list-style: none; /* Elimina los marcadores por defecto */
+   padding-left: 1.5rem; /* Agrega espacio para el nuevo marcador */
+   font-weight: bold;
+   color: whitesmoke;
+   text-shadow: -1px -1px black, 1px 1px #333;
+   line-height: 0.7;
+}
+
+.customLi li {
+   margin-bottom: 10px;
+   text-align: left;
+   position: relative; /* Asegura que los marcadores personalizados sean relativos al li */
+}
+
+.customLi li::before {
+   content: "✔"; /* Puedes cambiar este símbolo */
+   position: absolute;
+   left: -1rem; /* Coloca el marcador a la izquierda del li */
+   color: whitesmoke; /* Color del marcador */
+   font-size: 15px; /* Tamaño del marcador */
+   font-weight: bold;
+   text-shadow: -1px -1px black, 1px 1px #333;
+   line-height: 0.7; /* Alinea el marcador con el contenido del li */
+}
+
+.customLi:hover {
+   border-radius: 1rem;
+   padding-top: 0.5rem;
+   padding-right: 0.5rem;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.h4 {
+   font-weight: bold;
+   text-align: right;
+   color: whitesmoke;
+   text-shadow: -1px -1px black, 1px 1px #333;
+   line-height: 0.7;
+   padding: 0.5rem;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 0.5rem;
+}

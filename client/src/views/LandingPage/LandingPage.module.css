@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+.landingPageContent {
+   background-color: "";
+   background-image: url(https://fondosmil.com/fondo/35733.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.buttonStart {
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bolder;
+   margin-top: 4rem;
+   margin-left: 7rem;
+   padding-top: 0.6rem;
+   height: 40px;
+   width: 110px;
+   border-radius: 2rem;
+   border-color: transparent;
+   color: rgb(255, 255, 255);
+   background-color: blue;
+}
+.buttonStart:hover {
+   color: rgb(255, 255, 255);
+   background-color: lightblue;
+   color: black;
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+
+.titleContent {
+   margin-top: 13rem;
+   margin-left: 7rem;
+   width: 25rem;
+}
+.h1Title {
+   color: transparent;
+   background-image: linear-gradient(
+      to left,
+      #000000,
+      #260ac7,
+      #a11616,
+      #101669,
+      #000000
+   );
+   background-clip: text;
+   animation: color 3s linear infinite;
+   background-size: 500%;
+
+   font-family: "Kalam", cursive;
+   font-size: 4rem;
+   line-height: 1;
+}
+@keyframes color {
+   from {
+      background-position: 0% 50%;
+   }
+
+   to {
+      background-position: 100% 50%;
+   }
+}

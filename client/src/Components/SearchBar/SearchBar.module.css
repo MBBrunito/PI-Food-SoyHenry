@@ -1,0 +1,32 @@
+.inputSearch {
+   width: 12rem;
+   height: 1.6rem;
+   font-family: cursive;
+   border-radius: 2rem;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   background-color: lightgray;
+}
+.inputSearch:focus {
+   outline: none;
+}
+
+.cleanButton {
+   font-family: cursive;
+   height: 2rem;
+   border-radius: 2rem;
+   border-bottom-left-radius: 0;
+   border-top-left-radius: 0;
+   border-color: transparent;
+   background-color: blue;
+}
+
+.searchbutton {
+   font-family: cursive;
+   height: 2rem;
+   border-radius: 2rem;
+   border-color: white;
+   border-style: dashed;
+   background-color: blue;
+   font-weight: bold;
+}
